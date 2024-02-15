@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package software;
+
+option go_package = "github.com/wtran29/protobuf-go/protogen/software";
+
+message Application {
+    string version = 1;
+    string name = 2;
+    repeated string platforms = 3;
+}
